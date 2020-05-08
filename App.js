@@ -11,6 +11,8 @@ import {
 
 import Drupal from './img/drupal.svg';
 
+import RickAndMorty from './img/RickAndMorty.svg';
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -21,6 +23,7 @@ class App extends React.Component {
       <View>
         <Text>SvgApp</Text>
         <Drupal />
+        <RickAndMorty width="85%"/>
       </View>
     );
   }
