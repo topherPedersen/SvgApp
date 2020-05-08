@@ -7,9 +7,8 @@ import {
   StatusBar,
   Text,
   Image,
+  Button,
 } from 'react-native';
-
-// import AnimatedImplementation from 'AnimatedImplementation'
 
 import { 
   Svg,
