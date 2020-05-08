@@ -9,9 +9,9 @@ import {
   Image,
 } from 'react-native';
 
-import Svg, {
-  Circle,
-} from 'react-native-svg';
+// import FidgetSpinner from './img/fidgetspinner.svg';
+
+import Drupal from './img/drupal.svg';
 
 class App extends React.Component {
   constructor(props) {
@@ -22,15 +22,7 @@ class App extends React.Component {
     return(
       <View>
         <Text>SvgApp</Text>
-        <Svg height="50%" width="50%" viewBox="0 0 100 100">
-          <Circle 
-            cx="50"
-            cy="50"
-            r="45"
-            stroke="blue"
-            strokeWidth="2.5"
-            fill="green" />
-        </Svg>
+        <Drupal />
       </View>
     );
   }
