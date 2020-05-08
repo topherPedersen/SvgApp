@@ -9,8 +9,6 @@ import {
   Image,
 } from 'react-native';
 
-import Drupal from './img/drupal.svg';
-
 import RickAndMorty from './img/RickAndMorty.svg';
 
 class App extends React.Component {
@@ -22,7 +20,6 @@ class App extends React.Component {
     return(
       <View>
         <Text>SvgApp</Text>
-        <Drupal />
         <RickAndMorty width="85%"/>
       </View>
     );
