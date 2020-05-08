@@ -9,8 +9,6 @@ import {
   Image,
 } from 'react-native';
 
-// import FidgetSpinner from './img/fidgetspinner.svg';
-
 import Drupal from './img/drupal.svg';
 
 class App extends React.Component {
